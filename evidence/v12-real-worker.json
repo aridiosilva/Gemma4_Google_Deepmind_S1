@@ -1,0 +1,58 @@
+{
+  "source_id": "S24",
+  "extraction": "Selected JSON fields; values unchanged; omitted fields are not supplied.",
+  "data": {
+    "instance_id": "rich_3953",
+    "run_id": "rich_3953-bug33-restart02-P",
+    "status": "EVALUATED",
+    "patch_bytes": 1095,
+    "patch_sha256": "f1092811ae2449094ff6da33d589fa8e1fbe8e2b3f8835b4f7910a11175c5909",
+    "patch_applied": true,
+    "resolved": false,
+    "test_exit_code": 1,
+    "evaluation_completed": true,
+    "usage_complete": true,
+    "tokens": 324628,
+    "tokens_output": 15211,
+    "terminal_guard_reason": "CONTEXT_EXHAUSTED",
+    "automatic_retry_performed": false,
+    "reasoning_responses": 17,
+    "preventive_stops": [
+      {
+        "backend_request_sent": false,
+        "input_tokens": 29516,
+        "integration_revision": "P33_V12_AGENT_LAYER_20261105",
+        "kind": "preventive_stop",
+        "output_min_tokens": 3214,
+        "reason": "CONTEXT_EXHAUSTED",
+        "template_margin": 256
+      }
+    ],
+    "sampling": {
+      "max_output_tokens": 16384,
+      "seed": 0,
+      "temperature": 0.2,
+      "thinking_config": {
+        "include_thoughts": true,
+        "thinking_budget": 2048
+      },
+      "top_p": 0.95
+    },
+    "audit": {
+      "model_requests": 18,
+      "model_successes": 18,
+      "model_failures": 0,
+      "actual_tokens": 324628,
+      "actual_output_tokens": 15211,
+      "tool_calls": 15,
+      "tool_failures": 2,
+      "limits": {
+        "aggregate_reserved_tokens": 786432,
+        "context_tokens": 32768,
+        "max_output_tokens": 16384,
+        "model_requests": 24,
+        "tool_calls": 40
+      }
+    }
+  }
+}

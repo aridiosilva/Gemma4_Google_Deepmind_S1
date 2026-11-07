@@ -1,0 +1,19 @@
+{
+  "source_id": "S15",
+  "extraction": "Selected JSON fields; values unchanged; omitted fields are not supplied.",
+  "data": {
+    "status": "SCIENTIFIC_RELEASE_BLOCKED_KNOWN_DEPENDENCY_DEFECT",
+    "enforcement": "DOCUMENTED_REVIEW_GATE_NOT_YET_WIRED_TO_FROZEN_RUNTIME",
+    "reason": "Pinned parser can fail to progress; JUnit helper can accept a different test identity",
+    "critical_findings": [
+      "W01",
+      "W18"
+    ],
+    "model_calls": 0,
+    "scientific_tasks_started": 0,
+    "mitigation_installed": false,
+    "correction_proposals_integrated": false,
+    "created_at_utc": "2026-11-02T17:03:32.310575+00:00",
+    "updated_at_utc": "2026-11-02T17:35:51.110337+00:00"
+  }
+}

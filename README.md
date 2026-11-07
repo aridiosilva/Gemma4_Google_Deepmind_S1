@@ -1,54 +1,27 @@
-# Evidence for the Gemma 4 Developer Agent Paper Track
+# Frozen paper evidence: supplemental edition
 
-Author: Aridio Silva · Independent Researcher, Brazil
-ORCID: https://orcid.org/0009-0008-2411-6995
-© 2026 Aridio Silva
+Aridio Silva · Independent Researcher · ORCID 0009-0008-2411-6995
 
-Repository: `Gemma4_Google_Deepmind_S1`; S1 means **Submission One**.
+© 2026 Aridio Silva · Apache-2.0
 
-Version 1.0.0. This repository contains the reviewed supporting evidence for the paper *Budgeted software repair with AI agents: Termination, verifiable acceptance, and abstention in the Gemma 4 challenge*. This is an independent research submission by Aridio Silva.
+Created / updated: November 7, 2026, America/Sao_Paulo.
 
-| Claim | File | Scope |
+This edition adds publication extracts and selected processing receipts supporting paper references 8–12. These documents are the publicly inspectable cited sources; they are not claims that the full private reports or processing archives are public. The repository is archived read-only after publication.
+
+The original Submission One snapshot is preserved at tag `paper-evidence-v1.0.0`, commit `44c82db889d551ce0c0256209b6c9c95e16911e2`. The supplemental edition uses a new commit and tag `paper-evidence-v1.1.0`. No original tag is moved. The controller checker, pilot table and task 16 diagnostic retain their original bytes.
+
+| Paper reference | Public document | Scope |
 | --- | --- | --- |
-| Abstract-controller finite-state check | `controller-check.py` | Local finite model, independent of inference and Kaggle execution. |
-| Incompatible mandatory tests for task 16 | `task16-proof.md` | Logical incompatibility and preserved R2 summary, limited to the examined public profile. |
-| B/P workflow pilot | `pilot-bp.csv` | One synthetic task, one execution per arm, fixed B-then-P order. |
+| 8 | [Synthetic B/P pilot](evidence/ref-08.md) | One synthetic task, B then P, real model |
+| 9 | [Task 16](evidence/ref-09.md) | Fixed public profile, local mock rehearsal |
+| 10 | [Resource defects and gate](evidence/ref-10.md) | Pure synthetic checks; documentary block |
+| 11 | [Forum-informed local checks](evidence/ref-11.md) | Parser reproduction and mocked V12 K2 |
+| 12 | [V12 and V12R1](evidence/ref-12.md) | One real re-exposed V12 case; V12R1 local only |
 
-## Run the abstract-controller check
+The [source catalog](evidence/source-catalog.json) fingerprints originals and ZIP members. The [archive audit](evidence/archive-audit.json) records inspected processing ZIPs. Source hashes document provenance; without the excluded originals they cannot independently authenticate the extracts. The evidence supports inspection of reported counters, verdicts, identity cases and operational events, not end-to-end reproduction of the private harness.
 
-Use Python 3.12 and its standard library:
+The [progress event extract](evidence/v12-progress-events.jsonl) supplies allowlisted cell heartbeat/lifecycle fields without reasoning or tool bodies. No competition snapshot, dataset entry, reference patch, wheel, credential, private session or raw reasoning is distributed.
 
-```text
-python -I -B controller-check.py
-```
+Run `python verify-evidence.py` using Python 3.12+ to verify the distributed file manifest and receipt consistency, then `python controller-check.py` for the abstract model check. These are local checks; they do not invoke Gemma, Kaggle or a GPU. A passing check confirms file integrity and stated arithmetic, not independent authenticity of source runs or implementation correspondence.
 
-Expected output (also reproduced locally with Python 3.12.10):
-
-```text
-controle: (556, 953)
-mutante: iniciar -> patch -> falsa -> commit_ok
-```
-
-The source bytes are preserved from the reviewed model checker. Its finite exploration does not establish correspondence with an entire software-repair implementation. The ranking proof in the paper covers arbitrary attempt limits under the stated progress assumptions.
-
-## Pilot provenance and limits
-
-The CSV was checked against the preserved ONE_SHOT_13 run and evaluation receipts. Both arms passed two tests and produced the same 214-byte patch, SHA-256 `5d6befcb58a9cd734bd603d022ffeab623c251d49584e236dba3c4bbe065ed15`.
-
-The original evidence archive has SHA-256 `27b7dcb35947826d48fbade92b9de267ea2f3b9ecea4ecfc6f8b506e92128908`. All 266 entries in its manifest were checked locally. Raw sessions and the original archive remain in the author's private evidence store. This one synthetic case does not establish general performance superiority or count toward the planned 33-of-129 competition-task sample.
-
-The three evidence groups above are the scope of this release. The release is not a redistribution of competition datasets, snapshots, wheels, model weights, or raw execution logs, and does not independently reproduce every internal report referenced by the manuscript.
-
-## Verify the frozen release
-
-`MANIFEST.sha256` lists SHA-256 values for the seven other files. From the repository root on a system with sha256sum:
-
-```text
-sha256sum -c MANIFEST.sha256
-```
-
-The release tag is `paper-evidence-v1.0.0`. The paper cites the full 40-character commit SHA. The repository is intended to be archived after publication and verification so its contents remain available for reading. Use the exact commit for reproducibility.
-
-## License
-
-The original material in this evidence repository is licensed under the Apache License, Version 2.0; see `LICENSE` and `NOTICE`. The Kaggle Writeup is a separate publication and is not included in this evidence repository. Third-party competition resources remain governed by their own terms and are linked rather than redistributed.
+All new text, extracts and verification code in this repository are author-generated supporting material under Apache-2.0. External names and fingerprints do not grant rights to omitted third-party material. The separately delivered manuscript retains its stated CC BY 4.0 license. See LICENSE and NOTICE.

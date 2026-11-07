@@ -1,0 +1,205 @@
+{
+  "source_id": "S14",
+  "extraction": "Selected JSON fields; values unchanged; omitted fields are not supplied.",
+  "data": {
+    "status": "PINNED_VLLM_PARSER_DEFECT_CONFIRMED",
+    "created_at_utc": "2026-11-02T16:55:08.883890+00:00",
+    "method": "Read-only exact wheel hashes plus AST-isolated pure parser reproduction with a deterministic non-progress guard",
+    "limitations": "Pure parser only; no live vLLM API/GPU test, no claim about current hidden scorer wheel bytes. Candidate fail-closed variant is not installed.",
+    "cases": [
+      {
+        "candidate_in_memory": {
+          "status": "RETURNED",
+          "steps": 88,
+          "value": {
+            "count": 42,
+            "flag": true
+          }
+        },
+        "case": "normal-flat",
+        "expected": {
+          "count": 42,
+          "flag": true
+        },
+        "function": "_parse_gemma4_args",
+        "input": "count:42,flag:true",
+        "original": {
+          "status": "RETURNED",
+          "steps": 86,
+          "value": {
+            "count": 42,
+            "flag": true
+          }
+        },
+        "status": "PASS_REPRODUCED_AND_MITIGATION_TESTED"
+      },
+      {
+        "candidate_in_memory": {
+          "status": "RETURNED",
+          "steps": 38,
+          "value": {
+            "command": "Fix list[str] handling"
+          }
+        },
+        "case": "delimited-string-with-brackets",
+        "expected": {
+          "command": "Fix list[str] handling"
+        },
+        "function": "_parse_gemma4_args",
+        "input": "command:<|\"|>Fix list[str] handling<|\"|>",
+        "original": {
+          "status": "RETURNED",
+          "steps": 38,
+          "value": {
+            "command": "Fix list[str] handling"
+          }
+        },
+        "status": "PASS_REPRODUCED_AND_MITIGATION_TESTED"
+      },
+      {
+        "candidate_in_memory": {
+          "status": "RETURNED",
+          "steps": 60,
+          "value": {
+            "args": [
+              "Fix list[str] handling"
+            ]
+          }
+        },
+        "case": "valid-array",
+        "expected": {
+          "args": [
+            "Fix list[str] handling"
+          ]
+        },
+        "function": "_parse_gemma4_args",
+        "input": "args:[<|\"|>Fix list[str] handling<|\"|>]",
+        "original": {
+          "status": "RETURNED",
+          "steps": 60,
+          "value": {
+            "args": [
+              "Fix list[str] handling"
+            ]
+          }
+        },
+        "status": "PASS_REPRODUCED_AND_MITIGATION_TESTED"
+      },
+      {
+        "candidate_in_memory": {
+          "diagnostic": "MALFORMED_GEMMA4_ARGUMENT_NO_PROGRESS",
+          "error_type": "ValueError",
+          "status": "EXCEPTION",
+          "steps": 221
+        },
+        "case": "malformed-plain-quoted-array",
+        "expected": null,
+        "function": "_parse_gemma4_args",
+        "input": "args:[\"Fix list[str] handling\"]",
+        "original": {
+          "diagnostic": "PINNED_PARSER_CURSOR_DOES_NOT_ADVANCE",
+          "error_type": "ParserNonProgressDetected",
+          "location": {
+            "cursor": 13,
+            "function": "_parse_gemma4_array",
+            "line": 274,
+            "visits": 201
+          },
+          "status": "NON_PROGRESS_REPRODUCED",
+          "steps": 2804
+        },
+        "status": "PASS_REPRODUCED_AND_MITIGATION_TESTED"
+      },
+      {
+        "candidate_in_memory": {
+          "diagnostic": "MALFORMED_GEMMA4_ARGUMENT_NO_PROGRESS",
+          "error_type": "ValueError",
+          "status": "EXCEPTION",
+          "steps": 39
+        },
+        "case": "malformed-direct-array",
+        "expected": null,
+        "function": "_parse_gemma4_array",
+        "input": "42,]trailing",
+        "original": {
+          "diagnostic": "PINNED_PARSER_CURSOR_DOES_NOT_ADVANCE",
+          "error_type": "ParserNonProgressDetected",
+          "location": {
+            "cursor": null,
+            "function": "_parse_gemma4_value",
+            "line": 59,
+            "visits": 201
+          },
+          "status": "NON_PROGRESS_REPRODUCED",
+          "steps": 2625
+        },
+        "status": "PASS_REPRODUCED_AND_MITIGATION_TESTED"
+      },
+      {
+        "candidate_in_memory": {
+          "diagnostic": "MALFORMED_GEMMA4_ARGUMENT_NO_PROGRESS",
+          "error_type": "ValueError",
+          "status": "EXCEPTION",
+          "steps": 87
+        },
+        "case": "malformed-recursive-args",
+        "expected": null,
+        "function": "_parse_gemma4_args",
+        "input": ":[t:[]",
+        "original": {
+          "diagnostic": "PINNED_PARSER_CURSOR_DOES_NOT_ADVANCE",
+          "error_type": "ParserNonProgressDetected",
+          "location": {
+            "cursor": 3,
+            "function": "_parse_gemma4_array",
+            "line": 274,
+            "visits": 201
+          },
+          "status": "NON_PROGRESS_REPRODUCED",
+          "steps": 2670
+        },
+        "status": "PASS_REPRODUCED_AND_MITIGATION_TESTED"
+      },
+      {
+        "candidate_in_memory": {
+          "status": "RETURNED",
+          "steps": 65,
+          "value": [
+            [
+              "a]b",
+              "c"
+            ]
+          ]
+        },
+        "case": "nested-delimited-array",
+        "expected": [
+          [
+            "a]b",
+            "c"
+          ]
+        ],
+        "function": "_parse_gemma4_array",
+        "input": "[<|\"|>a]b<|\"|>,<|\"|>c<|\"|>]",
+        "original": {
+          "diagnostic": "PINNED_PARSER_CURSOR_DOES_NOT_ADVANCE",
+          "error_type": "ParserNonProgressDetected",
+          "location": {
+            "cursor": null,
+            "function": "_parse_gemma4_value",
+            "line": 59,
+            "visits": 201
+          },
+          "status": "NON_PROGRESS_REPRODUCED",
+          "steps": 2699
+        },
+        "status": "PASS_REPRODUCED_AND_MITIGATION_TESTED"
+      }
+    ],
+    "parser_sha256": "682b2152b76c031df9c58c3ffbb5b243945be5d8957ebdce00faef1b9de6b889",
+    "candidate_parser_sha256": "fc49739a27b808da6878436117b921c343ec8ae3392dd5650c43fa94653a6280",
+    "mitigation_installed": false,
+    "model_calls": 0,
+    "scientific_tasks_started": 0,
+    "original_wheel_unchanged_after_tests": true
+  }
+}

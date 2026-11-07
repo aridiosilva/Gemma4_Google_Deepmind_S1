@@ -1,0 +1,70 @@
+{
+  "extraction": "Selected receipt fields; test summary parsed from log; patch bytes hashed without publishing patch.",
+  "manifest_files_verified": 266,
+  "arms": {
+    "B": {
+      "run_source_id": "S02",
+      "evaluation_source_id": "S03",
+      "patch_source_id": "S04",
+      "test_output_source_id": "S05",
+      "arm": "B",
+      "status": "TECHNICAL_COMPLETE",
+      "resolved": true,
+      "requested_seed": 0,
+      "automatic_retry_performed": false,
+      "elapsed_launcher_seconds": 45.97980821700003,
+      "cleanup_recorded": true,
+      "evaluation_recorded": true,
+      "audit": {
+        "model_requests": 6,
+        "actual_tokens": 14881,
+        "actual_output_tokens": 349,
+        "model_successes": 6,
+        "model_failures": 0
+      },
+      "evaluation": {
+        "status": "SUCCESS",
+        "resolved": true,
+        "test_exit_code": 0,
+        "duration_seconds": 10.429738594000014
+      },
+      "cleanup": "PASS_OFFICIAL_EVALUATOR_RETURNED_AFTER_FINALLY",
+      "patch_bytes": 214,
+      "patch_sha256": "5d6befcb58a9cd734bd603d022ffeab623c251d49584e236dba3c4bbe065ed15",
+      "test_output_sha256": "b096e9f2316fa98b7f3bc539e9c36aa69c0f972688919d24205a4a4a3b6536c2",
+      "test_summary": "2 passed"
+    },
+    "P": {
+      "run_source_id": "S06",
+      "evaluation_source_id": "S07",
+      "patch_source_id": "S08",
+      "test_output_source_id": "S09",
+      "arm": "P",
+      "status": "TECHNICAL_COMPLETE",
+      "resolved": true,
+      "requested_seed": 0,
+      "automatic_retry_performed": false,
+      "elapsed_launcher_seconds": 28.49007466899991,
+      "cleanup_recorded": true,
+      "evaluation_recorded": true,
+      "audit": {
+        "model_requests": 6,
+        "actual_tokens": 16268,
+        "actual_output_tokens": 256,
+        "model_successes": 6,
+        "model_failures": 0
+      },
+      "evaluation": {
+        "status": "SUCCESS",
+        "resolved": true,
+        "test_exit_code": 0,
+        "duration_seconds": 9.981037594999975
+      },
+      "cleanup": "PASS_OFFICIAL_EVALUATOR_RETURNED_AFTER_FINALLY",
+      "patch_bytes": 214,
+      "patch_sha256": "5d6befcb58a9cd734bd603d022ffeab623c251d49584e236dba3c4bbe065ed15",
+      "test_output_sha256": "7945dfae7d928a6d7c6cbd04ada83d697ffbc4b421251431d360eab44355c5b3",
+      "test_summary": "2 passed"
+    }
+  }
+}

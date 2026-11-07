@@ -1,0 +1,247 @@
+{
+  "author": "Aridio Silva",
+  "created": "2026-11-07 America/Sao_Paulo",
+  "scope": "Private source fingerprints for public extracts. Hashes do not make omitted originals publicly accessible or independently reproducible. Full private archives are not distributed.",
+  "sources": [
+    {
+      "id": "S01",
+      "source": "experimentos/2026-10-27-1915-p3-first-pair-attempt-13-result-v08/pair-package-evidence.zip",
+      "bytes": 1425139,
+      "sha256": "27b7dcb35947826d48fbade92b9de267ea2f3b9ecea4ecfc6f8b506e92128908"
+    },
+    {
+      "id": "S02",
+      "source": "experimentos/2026-10-27-1915-p3-first-pair-attempt-13-result-v08/pair-package-evidence.zip",
+      "bytes": 1425139,
+      "sha256": "27b7dcb35947826d48fbade92b9de267ea2f3b9ecea4ecfc6f8b506e92128908",
+      "member": "live/pair-results/ARIDIO_FIRST_PAIR_20261027T214653Z_ONE_SHOT_13/arms/B01-page-boundary-r0-B/run-receipt.json",
+      "member_bytes": 4018,
+      "member_sha256": "48229da57d5636cd205825ea221476144ea522345776ccbd1d1616aa2d24d71c"
+    },
+    {
+      "id": "S03",
+      "source": "experimentos/2026-10-27-1915-p3-first-pair-attempt-13-result-v08/pair-package-evidence.zip",
+      "bytes": 1425139,
+      "sha256": "27b7dcb35947826d48fbade92b9de267ea2f3b9ecea4ecfc6f8b506e92128908",
+      "member": "live/pair-results/ARIDIO_FIRST_PAIR_20261027T214653Z_ONE_SHOT_13/arms/B01-page-boundary-r0-B/evaluation-receipt.json",
+      "member_bytes": 1529,
+      "member_sha256": "e6a688f715ad422d8acafd11701ff46b81b87d54cd7d29d51f5985c343c655c4"
+    },
+    {
+      "id": "S04",
+      "source": "experimentos/2026-10-27-1915-p3-first-pair-attempt-13-result-v08/pair-package-evidence.zip",
+      "bytes": 1425139,
+      "sha256": "27b7dcb35947826d48fbade92b9de267ea2f3b9ecea4ecfc6f8b506e92128908",
+      "member": "live/pair-results/ARIDIO_FIRST_PAIR_20261027T214653Z_ONE_SHOT_13/arms/B01-page-boundary-r0-B/captured.patch",
+      "member_bytes": 214,
+      "member_sha256": "5d6befcb58a9cd734bd603d022ffeab623c251d49584e236dba3c4bbe065ed15"
+    },
+    {
+      "id": "S05",
+      "source": "experimentos/2026-10-27-1915-p3-first-pair-attempt-13-result-v08/pair-package-evidence.zip",
+      "bytes": 1425139,
+      "sha256": "27b7dcb35947826d48fbade92b9de267ea2f3b9ecea4ecfc6f8b506e92128908",
+      "member": "live/pair-results/ARIDIO_FIRST_PAIR_20261027T214653Z_ONE_SHOT_13/arms/B01-page-boundary-r0-B/test-output.log",
+      "member_bytes": 397,
+      "member_sha256": "b096e9f2316fa98b7f3bc539e9c36aa69c0f972688919d24205a4a4a3b6536c2"
+    },
+    {
+      "id": "S06",
+      "source": "experimentos/2026-10-27-1915-p3-first-pair-attempt-13-result-v08/pair-package-evidence.zip",
+      "bytes": 1425139,
+      "sha256": "27b7dcb35947826d48fbade92b9de267ea2f3b9ecea4ecfc6f8b506e92128908",
+      "member": "live/pair-results/ARIDIO_FIRST_PAIR_20261027T214653Z_ONE_SHOT_13/arms/B01-page-boundary-r0-P/run-receipt.json",
+      "member_bytes": 4018,
+      "member_sha256": "631e50b56dfb0cb119bb3800130d267a286224d5eab24d647b1e61f03e407bb2"
+    },
+    {
+      "id": "S07",
+      "source": "experimentos/2026-10-27-1915-p3-first-pair-attempt-13-result-v08/pair-package-evidence.zip",
+      "bytes": 1425139,
+      "sha256": "27b7dcb35947826d48fbade92b9de267ea2f3b9ecea4ecfc6f8b506e92128908",
+      "member": "live/pair-results/ARIDIO_FIRST_PAIR_20261027T214653Z_ONE_SHOT_13/arms/B01-page-boundary-r0-P/evaluation-receipt.json",
+      "member_bytes": 1528,
+      "member_sha256": "c031a90b54b092f08ee57bc51236b959c82939b29be1af1e635692569429d6fe"
+    },
+    {
+      "id": "S08",
+      "source": "experimentos/2026-10-27-1915-p3-first-pair-attempt-13-result-v08/pair-package-evidence.zip",
+      "bytes": 1425139,
+      "sha256": "27b7dcb35947826d48fbade92b9de267ea2f3b9ecea4ecfc6f8b506e92128908",
+      "member": "live/pair-results/ARIDIO_FIRST_PAIR_20261027T214653Z_ONE_SHOT_13/arms/B01-page-boundary-r0-P/captured.patch",
+      "member_bytes": 214,
+      "member_sha256": "5d6befcb58a9cd734bd603d022ffeab623c251d49584e236dba3c4bbe065ed15"
+    },
+    {
+      "id": "S09",
+      "source": "experimentos/2026-10-27-1915-p3-first-pair-attempt-13-result-v08/pair-package-evidence.zip",
+      "bytes": 1425139,
+      "sha256": "27b7dcb35947826d48fbade92b9de267ea2f3b9ecea4ecfc6f8b506e92128908",
+      "member": "live/pair-results/ARIDIO_FIRST_PAIR_20261027T214653Z_ONE_SHOT_13/arms/B01-page-boundary-r0-P/test-output.log",
+      "member_bytes": 397,
+      "member_sha256": "7945dfae7d928a6d7c6cbd04ada83d697ffbc4b421251431d360eab44355c5b3"
+    },
+    {
+      "id": "S10",
+      "source": "Analises_Criticas/2026-11-03-ensaio-33-tarefas/runs/20261103T193822Z-R2-V11R5I/repo/tasks/fastapi_14186-bug33-restart01-P/command-receipts/4f4c9536050baf64-d67f0f4cc8da/stdout.bin",
+      "bytes": 8192,
+      "sha256": "9f8dbb61039840d56c10398f844260ae4b718d5700940e1791c03334f713f7f7"
+    },
+    {
+      "id": "S11",
+      "source": "Analises_Criticas/2026-11-03-ensaio-33-tarefas/runs/20261103T193822Z-R2-V11R5I/repo/tasks/fastapi_14186-bug33-restart01-P/official-verdict-before-identity.json",
+      "bytes": 139,
+      "sha256": "3d0ab4117df6a39bc39bdec0c624294615a790c20c9884f195e29ebd2cb25bf1"
+    },
+    {
+      "id": "S12",
+      "source": "Analises_Criticas/2026-11-03-ensaio-33-tarefas/2026-11-03-2203-relatorio-decisao-fastapi-14186-e-parecer-tecnico.md",
+      "bytes": 13940,
+      "sha256": "a13e8cc6e1a10baacf600ab8da5f9faccf773b205232d19cfa031b877d20d0f4"
+    },
+    {
+      "id": "S13",
+      "source": "experimentos/2026-11-01-p3-bug33-correcoes-v01/v10-audit/wheel-research-20261102/swegemma-junit-identity-receipt.json",
+      "bytes": 5734,
+      "sha256": "aa75dea027b52abafdd380d3215be0abf9e9c2c5fc2d8baa6dfee9a9b9c09d30"
+    },
+    {
+      "id": "S14",
+      "source": "experimentos/2026-11-01-p3-bug33-correcoes-v01/v10-audit/wheel-research-20261102/wheel-research-receipt.json",
+      "bytes": 9523,
+      "sha256": "92216b801a51d71dfea3d87e656825a7c7bf8891a5b18c138007484b78c7b432"
+    },
+    {
+      "id": "S15",
+      "source": "experimentos/2026-11-01-p3-bug33-correcoes-v01/v10-audit/resource-audit-release-gate.json",
+      "bytes": 1775,
+      "sha256": "c8c3e50b38ce2513d92ea27d76fe2c2e616bca374130fbf96a651ebafbf98005"
+    },
+    {
+      "id": "S16",
+      "source": "docs/2026-11-02-analise-bugs-recursos-P.md",
+      "bytes": 37671,
+      "sha256": "812a4eb4b4798c8514e6f5dc13d88411c3e3c721e84a895e6ada44f37015e14f"
+    },
+    {
+      "id": "S17",
+      "source": "experimentos/2026-11-01-p3-bug33-correcoes-v01/v10-audit/2026-11-02-tabela-decisao-estados-V10.md",
+      "bytes": 33934,
+      "sha256": "49f3f4773eacb42da4e45f7c586c2bd52f6db9618edf18702123ad1cf37a1105"
+    },
+    {
+      "id": "S18",
+      "source": "Analises_Criticas/2026-11-04-forum-competicao/recibo-teste-parser-forum.json",
+      "bytes": 1194,
+      "sha256": "c98b9530a390e00830dd3a232487ee70d69989b56fd801b99b035ddd76e9886c"
+    },
+    {
+      "id": "S19",
+      "source": "Analises_Criticas/2026-11-04-forum-competicao/2026-11-04-2045-impacto-forum-no-harness-V11R6.md",
+      "bytes": 16042,
+      "sha256": "ab29d11a8e13f793ec93a201803231ab5a9533ec11cbdc50cbfd573db7e37a88"
+    },
+    {
+      "id": "S20",
+      "source": "Analises_Criticas/2026-11-05-implementacao-V12/runs-kaggle/20261105T211331Z-K2-rodada2/recibo-k2-v12.json",
+      "bytes": 66528,
+      "sha256": "33bdc36209d44724ab761db3e67b192bfbd8431cdad44dcc916c5a78a961b5e4"
+    },
+    {
+      "id": "S21",
+      "source": "Analises_Criticas/2026-11-05-implementacao-V12/recibo-testes-v12.json",
+      "bytes": 3061,
+      "sha256": "f1450769222a6eff99035cd07578682e5417cc6382a0ea5bf99c71321c469f73"
+    },
+    {
+      "id": "S22",
+      "source": "Analises_Criticas/2026-11-05-implementacao-V12/2026-11-05-1850-relatorio-pacote-verificacao-K2-V12.md",
+      "bytes": 14663,
+      "sha256": "4e80144ab794878829e6b2a63249a9d28945966cdb04edb43d801c77f35934c8"
+    },
+    {
+      "id": "S23",
+      "source": "Analises_Criticas/2026-11-05-implementacao-V12/kaggle-rodada2/bug33-evidence-final.zip",
+      "bytes": 22994431,
+      "sha256": "01cfb1218d8cc4747f56790d39a705625848bd44af2927a0c3324c7587632c31"
+    },
+    {
+      "id": "S24",
+      "source": "Analises_Criticas/2026-11-05-implementacao-V12/kaggle-rodada2/bug33-evidence-final.zip",
+      "bytes": 22994431,
+      "sha256": "01cfb1218d8cc4747f56790d39a705625848bd44af2927a0c3324c7587632c31",
+      "member": "tasks/rich_3953-bug33-restart02-P/worker-result.json",
+      "member_bytes": 44008,
+      "member_sha256": "4d539ec11fa8aa3b25735ab450a61a857ce63abb3975470893a87bc633bc2d34"
+    },
+    {
+      "id": "S25",
+      "source": "Analises_Criticas/2026-11-05-implementacao-V12/kaggle-rodada2/bug33-evidence-final.zip",
+      "bytes": 22994431,
+      "sha256": "01cfb1218d8cc4747f56790d39a705625848bd44af2927a0c3324c7587632c31",
+      "member": "tasks/rich_3953-bug33-restart02-P/official/traces/trace_rich_3953.json",
+      "member_bytes": 139038,
+      "member_sha256": "ff0c6083f412c4283ee32e10c7c5e54ca2e8d425841947e1a102003c1e18e9a0"
+    },
+    {
+      "id": "S26",
+      "source": "Analises_Criticas/2026-11-05-implementacao-V12/kaggle-rodada2/bug33-evidence-final.zip",
+      "bytes": 22994431,
+      "sha256": "01cfb1218d8cc4747f56790d39a705625848bd44af2927a0c3324c7587632c31",
+      "member": "tasks/rich_3953-bug33-restart02-P/tests.log",
+      "member_bytes": 1116,
+      "member_sha256": "29291ba0638a99c76041b10b0c1f8a6c823d15ba1f6711b476fa02614d479c2c"
+    },
+    {
+      "id": "S27",
+      "source": "Analises_Criticas/2026-11-05-implementacao-V12/kaggle-rodada2/bug33-evidence-final.zip",
+      "bytes": 22994431,
+      "sha256": "01cfb1218d8cc4747f56790d39a705625848bd44af2927a0c3324c7587632c31",
+      "member": "tasks/rich_3953-bug33-restart02-P/command-receipts/f2c54dc1ec38dec2-c8c1dfdc8829/stdout.bin",
+      "member_bytes": 8069,
+      "member_sha256": "98ad0996c5bdbd6c8e334045ca81582246b6db4da36613f065fbac1fce807178"
+    },
+    {
+      "id": "S28",
+      "source": "Analises_Criticas/2026-11-05-implementacao-V12/kaggle-rodada2/2026-11-06-1425-relatorio-rodada2-V12.md",
+      "bytes": 39626,
+      "sha256": "5c652547237abe07c3f2f01ad2563508652dcf0fc1094bf3f52e09f4686e9268"
+    },
+    {
+      "id": "S29",
+      "source": "Analises_Criticas/2026-11-05-implementacao-V12/kaggle-rodada2/2026-11-06-1345-saida-celula2-rodada2-V12-fornecida-pelo-autor.txt",
+      "bytes": 1191517,
+      "sha256": "8a56c746543353d8f50e8c78f985f013595b0a0858432c2cfd8b7755d36e4f25"
+    },
+    {
+      "id": "S30",
+      "source": "Analises_Criticas/2026-11-06-implementacao-V12R1/recibo-testes-v12r1.json",
+      "bytes": 2618,
+      "sha256": "3b25f8097a691b9564f002ab7ed08e6ac52f4c89ea5741fbeb183e1873a02527"
+    },
+    {
+      "id": "S31",
+      "source": "Analises_Criticas/2026-11-06-implementacao-V12R1/runs-kaggle/20261106T194756Z-K2-rodada3/recibo-k2-v12r1.json",
+      "bytes": 66550,
+      "sha256": "a77689a61c38642387cc6da9652307016511830777c548238961035a1f5fc3d2"
+    },
+    {
+      "id": "S32",
+      "source": "Analises_Criticas/2026-11-06-implementacao-V12R1/2026-11-06-1900-registro-implementacao-V12R1.md",
+      "bytes": 13448,
+      "sha256": "7172d996b910369b625d8cdee2dfef817a3f1e86715ba38c394ccc26e4f702ad"
+    },
+    {
+      "id": "S33",
+      "source": "Analises_Criticas/2026-11-06-implementacao-V12R1/runs-kaggle/20261106T194756Z-K2-rodada3/working/bug33-v12r1-20261106t181304z/bug33-evidence-final.zip",
+      "bytes": 59892245,
+      "sha256": "6d10dfb0b1952720e0f3c57230119ee2e1cccbe4cbb061b71af3b4f55edd8f17"
+    },
+    {
+      "id": "S34",
+      "source": "Analises_Criticas/2026-11-06-implementacao-V12R1/runs-kaggle/20261106T194756Z-K2-rodada3/working/bug33-v12r1-20261106t181304z/pair-package-evidence.zip",
+      "bytes": 30682551,
+      "sha256": "0cb624c06fa5ccf790ef1ceed4a8716f9ad85f7fb8722013a94262288b3dbdd2"
+    }
+  ]
+}

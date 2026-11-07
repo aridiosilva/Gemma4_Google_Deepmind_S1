@@ -1,0 +1,8 @@
+{
+  "source_id": "S26",
+  "extraction": "Last pytest summary line; exit code from worker receipt; no test source or failure body.",
+  "data": {
+    "summary": "1 failed, 55 passed in 0.12s",
+    "test_exit_code": 1
+  }
+}

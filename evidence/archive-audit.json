@@ -1,0 +1,30 @@
+{
+  "v12_real": {
+    "source_id": "S23",
+    "manifest_members_verified": 1538,
+    "mismatches": 0
+  },
+  "v12r1_local": {
+    "archives": [
+      {
+        "source_id": "S33",
+        "name": "bug33-evidence-final.zip",
+        "bytes": 59892245,
+        "sha256": "6d10dfb0b1952720e0f3c57230119ee2e1cccbe4cbb061b71af3b4f55edd8f17",
+        "entries": 12195,
+        "worker_results": 32
+      },
+      {
+        "source_id": "S34",
+        "name": "pair-package-evidence.zip",
+        "bytes": 30682551,
+        "sha256": "0cb624c06fa5ccf790ef1ceed4a8716f9ad85f7fb8722013a94262288b3dbdd2",
+        "entries": 12190,
+        "worker_results": 32
+      }
+    ],
+    "pair_is_byte_identical_inside_final": true,
+    "same_execution_not_two_replicates": true,
+    "model_calls_real": 0
+  }
+}

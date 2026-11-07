@@ -1,0 +1,144 @@
+{
+  "status": "SWEGEMMA_JUNIT_IDENTITY_DEFECT_REPRODUCED",
+  "created_at_utc": "2026-11-02T17:18:56.217765+00:00",
+  "wheel_version": "0.2.11",
+  "wheel_sha256": "9ad876581f3acde8ec3c369858f0834e2b9f41a3cffce3ca42f09cb090aea9d3",
+  "member": "swegemma/harness/verification.py",
+  "member_sha256": "99e2a5fdab2be2b5e0388de29080da9d6e7003cf8b53299cda790464f4ecd2aa",
+  "cases": [
+    {
+      "case": "valid-node",
+      "xml": "<testsuites><testsuite tests=\"1\" failures=\"0\" errors=\"0\" skipped=\"0\"><testcase classname=\"tests.test_expected\" name=\"test_fix\"></testcase></testsuite></testsuites>",
+      "requirement": "tests/test_expected.py::test_fix",
+      "original": {
+        "accepted": true,
+        "reason": null
+      },
+      "proposal": {
+        "accepted": true,
+        "reason": null
+      },
+      "expected_behavior_verified": true
+    },
+    {
+      "case": "valid-class-node",
+      "xml": "<testsuites><testsuite tests=\"1\" failures=\"0\" errors=\"0\" skipped=\"0\"><testcase classname=\"tests.test_expected.TestClass\" name=\"test_fix\"></testcase></testsuite></testsuites>",
+      "requirement": "tests/test_expected.py::TestClass::test_fix",
+      "original": {
+        "accepted": true,
+        "reason": null
+      },
+      "proposal": {
+        "accepted": true,
+        "reason": null
+      },
+      "expected_behavior_verified": true
+    },
+    {
+      "case": "wrong-module-same-name",
+      "xml": "<testsuites><testsuite tests=\"1\" failures=\"0\" errors=\"0\" skipped=\"0\"><testcase classname=\"tests.test_other\" name=\"test_fix\"></testcase></testsuite></testsuites>",
+      "requirement": "tests/test_expected.py::test_fix",
+      "original": {
+        "accepted": true,
+        "reason": null
+      },
+      "proposal": {
+        "accepted": false,
+        "reason": "Required test node did not pass: tests/test_expected.py::test_fix"
+      },
+      "expected_behavior_verified": true
+    },
+    {
+      "case": "wrong-test-prefix",
+      "xml": "<testsuites><testsuite tests=\"1\" failures=\"0\" errors=\"0\" skipped=\"0\"><testcase classname=\"tests.test_expected\" name=\"test_fix_unrelated\"></testcase></testsuite></testsuites>",
+      "requirement": "tests/test_expected.py::test_fix",
+      "original": {
+        "accepted": true,
+        "reason": null
+      },
+      "proposal": {
+        "accepted": false,
+        "reason": "Required test node did not pass: tests/test_expected.py::test_fix"
+      },
+      "expected_behavior_verified": true
+    },
+    {
+      "case": "wrong-parameter",
+      "xml": "<testsuites><testsuite tests=\"1\" failures=\"0\" errors=\"0\" skipped=\"0\"><testcase classname=\"tests.test_expected\" name=\"test_fix[other]\"></testcase></testsuite></testsuites>",
+      "requirement": "tests/test_expected.py::test_fix[required]",
+      "original": {
+        "accepted": true,
+        "reason": null
+      },
+      "proposal": {
+        "accepted": false,
+        "reason": "Required test node did not pass: tests/test_expected.py::test_fix[required]"
+      },
+      "expected_behavior_verified": true
+    },
+    {
+      "case": "valid-parameter",
+      "xml": "<testsuites><testsuite tests=\"1\" failures=\"0\" errors=\"0\" skipped=\"0\"><testcase classname=\"tests.test_expected\" name=\"test_fix[required]\"></testcase></testsuite></testsuites>",
+      "requirement": "tests/test_expected.py::test_fix[required]",
+      "original": {
+        "accepted": true,
+        "reason": null
+      },
+      "proposal": {
+        "accepted": true,
+        "reason": null
+      },
+      "expected_behavior_verified": true
+    },
+    {
+      "case": "missing-xml",
+      "xml": "",
+      "requirement": "tests/test_expected.py::test_fix",
+      "original": {
+        "accepted": false,
+        "reason": "Missing or empty JUnit XML report (possible premature exit)"
+      },
+      "proposal": {
+        "accepted": false,
+        "reason": "Missing or empty JUnit XML report (possible premature exit)"
+      },
+      "expected_behavior_verified": true
+    },
+    {
+      "case": "zero-tests",
+      "xml": "<testsuite tests=\"0\"/>",
+      "requirement": "tests/test_expected.py::test_fix",
+      "original": {
+        "accepted": false,
+        "reason": "No passing tests recorded in JUnit XML (total=0, passed=0, skipped=0)"
+      },
+      "proposal": {
+        "accepted": false,
+        "reason": "No passing tests recorded in JUnit XML (total=0, passed=0, skipped=0)"
+      },
+      "expected_behavior_verified": true
+    },
+    {
+      "case": "all-skipped",
+      "xml": "<testsuites><testsuite tests=\"1\" failures=\"0\" errors=\"0\" skipped=\"1\"><testcase classname=\"tests.test_expected\" name=\"test_fix\"><skipped/></testcase></testsuite></testsuites>",
+      "requirement": "tests/test_expected.py::test_fix",
+      "original": {
+        "accepted": false,
+        "reason": "No passing tests recorded in JUnit XML (total=1, passed=0, skipped=1)"
+      },
+      "proposal": {
+        "accepted": false,
+        "reason": "No passing tests recorded in JUnit XML (total=1, passed=0, skipped=1)"
+      },
+      "expected_behavior_verified": true
+    }
+  ],
+  "assertions": 18,
+  "incorrect_acceptances_reproduced": 3,
+  "mitigation_installed": false,
+  "current_p_consumer": "unit_evaluation.py:116 calls the same _validate_junit_xml helper",
+  "limitations": "Synthetic JUnit documents and pure functions; no official task, grader or model was executed. Canonical identity mapping for real task manifests still required.",
+  "model_calls": 0,
+  "scientific_tasks": 0,
+  "original_wheel_modified": false
+}

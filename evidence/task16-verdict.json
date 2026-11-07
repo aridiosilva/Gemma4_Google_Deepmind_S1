@@ -1,0 +1,9 @@
+{
+  "source_id": "S11",
+  "extraction": "Selected JSON fields; values unchanged; omitted fields are not supplied.",
+  "data": {
+    "error": "Required test node did not pass: test_model_description_escaped_with_formfeed",
+    "resolved": false,
+    "test_exit_code": 0
+  }
+}

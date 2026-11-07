@@ -1,0 +1,178 @@
+{
+  "source_id": "S25",
+  "extraction": "Only step identity, source, event type and nonempty-message boolean. Message text, tool arguments/observations and reasoning content omitted.",
+  "data": {
+    "schema_version": "ATIF-v1.7",
+    "steps": [
+      {
+        "step_id": 1,
+        "source": "system",
+        "event_type": "system_instruction",
+        "has_nonempty_message": true
+      },
+      {
+        "step_id": 2,
+        "source": "user",
+        "event_type": "task_prompt",
+        "has_nonempty_message": true
+      },
+      {
+        "step_id": 3,
+        "source": "agent",
+        "event_type": "thinking",
+        "has_nonempty_message": true
+      },
+      {
+        "step_id": 4,
+        "source": "agent",
+        "event_type": "text",
+        "has_nonempty_message": true
+      },
+      {
+        "step_id": 5,
+        "source": "agent",
+        "event_type": null,
+        "has_nonempty_message": false
+      },
+      {
+        "step_id": 6,
+        "source": "agent",
+        "event_type": "thinking",
+        "has_nonempty_message": true
+      },
+      {
+        "step_id": 7,
+        "source": "agent",
+        "event_type": "final",
+        "has_nonempty_message": true
+      },
+      {
+        "step_id": 8,
+        "source": "system",
+        "event_type": "continuation_nudge",
+        "has_nonempty_message": true
+      },
+      {
+        "step_id": 9,
+        "source": "agent",
+        "event_type": "thinking",
+        "has_nonempty_message": true
+      },
+      {
+        "step_id": 10,
+        "source": "agent",
+        "event_type": "thinking",
+        "has_nonempty_message": true
+      },
+      {
+        "step_id": 11,
+        "source": "agent",
+        "event_type": "thinking",
+        "has_nonempty_message": true
+      },
+      {
+        "step_id": 12,
+        "source": "agent",
+        "event_type": "thinking",
+        "has_nonempty_message": true
+      },
+      {
+        "step_id": 13,
+        "source": "agent",
+        "event_type": "thinking",
+        "has_nonempty_message": true
+      },
+      {
+        "step_id": 14,
+        "source": "agent",
+        "event_type": "thinking",
+        "has_nonempty_message": true
+      },
+      {
+        "step_id": 15,
+        "source": "agent",
+        "event_type": "thinking",
+        "has_nonempty_message": true
+      },
+      {
+        "step_id": 16,
+        "source": "agent",
+        "event_type": "thinking",
+        "has_nonempty_message": true
+      },
+      {
+        "step_id": 17,
+        "source": "agent",
+        "event_type": "final",
+        "has_nonempty_message": true
+      },
+      {
+        "step_id": 18,
+        "source": "system",
+        "event_type": "continuation_nudge",
+        "has_nonempty_message": true
+      },
+      {
+        "step_id": 19,
+        "source": "agent",
+        "event_type": "thinking",
+        "has_nonempty_message": true
+      },
+      {
+        "step_id": 20,
+        "source": "agent",
+        "event_type": "final",
+        "has_nonempty_message": true
+      },
+      {
+        "step_id": 21,
+        "source": "system",
+        "event_type": "continuation_nudge",
+        "has_nonempty_message": true
+      },
+      {
+        "step_id": 22,
+        "source": "agent",
+        "event_type": "thinking",
+        "has_nonempty_message": true
+      },
+      {
+        "step_id": 23,
+        "source": "agent",
+        "event_type": "thinking",
+        "has_nonempty_message": true
+      },
+      {
+        "step_id": 24,
+        "source": "agent",
+        "event_type": "thinking",
+        "has_nonempty_message": true
+      },
+      {
+        "step_id": 25,
+        "source": "agent",
+        "event_type": "thinking",
+        "has_nonempty_message": true
+      },
+      {
+        "step_id": 26,
+        "source": "agent",
+        "event_type": "thinking",
+        "has_nonempty_message": true
+      },
+      {
+        "step_id": 27,
+        "source": "agent",
+        "event_type": "thinking",
+        "has_nonempty_message": true
+      }
+    ],
+    "final_metrics": {
+      "total_prompt_tokens": 309417,
+      "total_completion_tokens": 15211,
+      "total_cached_tokens": 0,
+      "total_tokens": 324628,
+      "total_steps": 27
+    }
+  }
+}

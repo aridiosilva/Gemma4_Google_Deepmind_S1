@@ -1,0 +1,15 @@
+{
+  "source_id": "S30",
+  "extraction": "Selected JSON fields; values unchanged; omitted fields are not supplied.",
+  "data": {
+    "identity": "LOCAL_TEST_ONLY",
+    "status": "PASS_V12R1_AGENT_LAYER_TESTS",
+    "limits": "Mocks e captura do cliente; não demonstra comportamento do Gemma, do vLLM real nem paridade Kaggle.",
+    "tests_run": 88,
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "model_calls": 0,
+    "scientific_tasks_started": 0
+  }
+}

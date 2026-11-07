@@ -1,0 +1,49 @@
+{
+ "stock": {
+  "array_bare_close_746336": {
+   "returned": false,
+   "hang": "NO_RETURN_IN_5s"
+  },
+  "args_json_quotes_bracket_753973": {
+   "returned": false,
+   "hang": "NO_RETURN_IN_5s"
+  },
+  "args_code_in_array_745138": {
+   "returned": false,
+   "hang": "NO_RETURN_IN_5s"
+  },
+  "args_plain_quotes_kept_745138": {
+   "returned": true,
+   "value": "{'skill_name': '\"my-skill\"'}"
+  },
+  "control_delimited_ok": {
+   "returned": true,
+   "value": "{'args': ['Fix list[str] handling']}"
+  }
+ },
+ "compat": {
+  "array_bare_close_746336": {
+   "returned": true,
+   "raised": "MalformedGemma4ToolCall",
+   "message": "MALFORMED_GEMMA4_ARGUMENT_NO_PROGRESS"
+  },
+  "args_json_quotes_bracket_753973": {
+   "returned": true,
+   "raised": "MalformedGemma4ToolCall",
+   "message": "MALFORMED_GEMMA4_ARGUMENT_NO_PROGRESS"
+  },
+  "args_code_in_array_745138": {
+   "returned": true,
+   "raised": "MalformedGemma4ToolCall",
+   "message": "MALFORMED_GEMMA4_ARGUMENT_NO_PROGRESS"
+  },
+  "args_plain_quotes_kept_745138": {
+   "returned": true,
+   "value": "{'skill_name': '\"my-skill\"'}"
+  },
+  "control_delimited_ok": {
+   "returned": true,
+   "value": "{'args': ['Fix list[str] handling']}"
+  }
+ }
+}

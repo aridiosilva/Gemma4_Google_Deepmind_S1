@@ -1,0 +1,275 @@
+{
+  "source_id": "S10",
+  "extraction": "Parsed JUnit testcase classname/name/status and skip message only; no source code, stdout or paths from failure bodies.",
+  "data": {
+    "cases": [
+      {
+        "classname": "tests.test_compat",
+        "name": "test_model_field_default_required",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_compat",
+        "name": "test_v1_plain_validator_function",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_compat",
+        "name": "test_is_model_field",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_compat",
+        "name": "test_get_model_config",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_compat",
+        "name": "test_complex",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_compat",
+        "name": "test_propagates_pydantic2_model_config",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_compat",
+        "name": "test_is_bytes_sequence_annotation_union",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_compat",
+        "name": "test_is_uploadfile_sequence_annotation",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_compat",
+        "name": "test_is_pv1_scalar_field",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_compat",
+        "name": "test_get_model_fields_cached",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_get_model_definitions_formfeed_escape",
+        "name": "test_openapi_schema",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_get_model_definitions_formfeed_escape",
+        "name": "test_model_description_escaped_with_formfeed[True]",
+        "outcome": "skipped",
+        "skip_message": "requires Pydantic v1"
+      },
+      {
+        "classname": "tests.test_get_model_definitions_formfeed_escape",
+        "name": "test_model_description_escaped_with_formfeed[False]",
+        "outcome": "skipped",
+        "skip_message": "requires Pydantic v1"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_no_response_model_no_annotation_return_model",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_no_response_model_no_annotation_return_dict",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_response_model_no_annotation_return_same_model",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_response_model_no_annotation_return_exact_dict",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_response_model_no_annotation_return_invalid_dict",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_response_model_no_annotation_return_invalid_model",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_response_model_no_annotation_return_dict_with_extra_data",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_response_model_no_annotation_return_submodel_with_extra_data",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_no_response_model_annotation_return_same_model",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_no_response_model_annotation_return_exact_dict",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_no_response_model_annotation_return_invalid_dict",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_no_response_model_annotation_return_invalid_model",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_no_response_model_annotation_return_dict_with_extra_data",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_no_response_model_annotation_return_submodel_with_extra_data",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_response_model_none_annotation_return_same_model",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_response_model_none_annotation_return_exact_dict",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_response_model_none_annotation_return_invalid_dict",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_response_model_none_annotation_return_invalid_model",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_response_model_none_annotation_return_dict_with_extra_data",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_response_model_none_annotation_return_submodel_with_extra_data",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_response_model_model1_annotation_model2_return_same_model",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_response_model_model1_annotation_model2_return_exact_dict",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_response_model_model1_annotation_model2_return_invalid_dict",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_response_model_model1_annotation_model2_return_invalid_model",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_response_model_model1_annotation_model2_return_dict_with_extra_data",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_response_model_model1_annotation_model2_return_submodel_with_extra_data",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_response_model_filtering_model_annotation_submodel_return_submodel",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_response_model_list_of_model_no_annotation",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_no_response_model_annotation_list_of_model",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_no_response_model_annotation_forward_ref_list_of_model",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_response_model_union_no_annotation_return_model1",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_response_model_union_no_annotation_return_model2",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_no_response_model_annotation_union_return_model1",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_no_response_model_annotation_union_return_model2",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_no_response_model_annotation_return_class",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_no_response_model_annotation_json_response_class",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_invalid_response_model_field",
+        "outcome": "passed"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_invalid_response_model_field_pv1",
+        "outcome": "skipped",
+        "skip_message": "requires Pydantic v1"
+      },
+      {
+        "classname": "tests.test_response_model_as_return_annotation",
+        "name": "test_openapi_schema",
+        "outcome": "passed"
+      }
+    ],
+    "counts": {
+      "passed": 49,
+      "skipped": 3
+    }
+  }
+}
