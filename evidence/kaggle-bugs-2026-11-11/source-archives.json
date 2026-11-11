@@ -1,0 +1,61 @@
+{
+  "author": "Aridio Silva",
+  "rounds": [
+    {
+      "round": "R1",
+      "configuration": "V11R6",
+      "archive_sha256": "bade4d102efffa3964fac25a1a810dc7323bf3d3fc07dfedec66410437d5856a",
+      "archive_bytes": 19399659,
+      "summary_sha256": "85b19d81407cfa7e0409b15d6c0af8372e1e78fb95c4ae99a1b7edf7cb151b68",
+      "executions": 2
+    },
+    {
+      "round": "R2",
+      "configuration": "V12",
+      "archive_sha256": "01cfb1218d8cc4747f56790d39a705625848bd44af2927a0c3324c7587632c31",
+      "archive_bytes": 22994431,
+      "summary_sha256": "60c7e54ca4f6f894f62e74d6ed5f347c1a46fdf2c674ab7d76d7ff536dedfea3",
+      "executions": 1
+    },
+    {
+      "round": "R3",
+      "configuration": "V12R1",
+      "archive_sha256": "f2893ba5dfb61cd5fe94fa86ef73acc553006440d3b5eefdcbe371431d585a83",
+      "archive_bytes": 46060046,
+      "summary_sha256": "c423f642e4db22abc87913988324eca752f54238435483265ab4808238c89c2c",
+      "executions": 6
+    },
+    {
+      "round": "R4",
+      "configuration": "V12R2",
+      "archive_sha256": "e79b4c513a06fd5605095393d228215d49d857a0ecc41cd08a26fcf153fd59db",
+      "archive_bytes": 69345659,
+      "summary_sha256": "c466343cdc14cb7ad460ff15becc9d64fe8135401cfe9f82f02252e96d22e482",
+      "executions": 26
+    },
+    {
+      "round": "R5",
+      "configuration": "V12R3-P30",
+      "archive_sha256": "c5e78cabf4d8a038acfa5d3c4fc4994211d8dbe207d8db325a2a937e7c9453e4",
+      "archive_bytes": 62951279,
+      "summary_sha256": "d8fc201eb448625fbb2f6d58e5a987bb07217a1fa12014ce39c3ce3244495617",
+      "executions": 15
+    },
+    {
+      "round": "R6",
+      "configuration": "V12R4-R65",
+      "archive_sha256": "9dc6075aad66ebf4a8287f27d065a62e4d5028e1673bc7f52b24ba4a485b6022",
+      "archive_bytes": 31981104,
+      "summary_sha256": "7718ac48437181329aa5ced742146338ab8ac98f9d3a5ae4daeb1005b8af9891",
+      "executions": 5
+    },
+    {
+      "round": "S54M",
+      "configuration": "V12R3-P30-S54M",
+      "archive_sha256": "d9b1145ba1c78582797d29a0d1bd16466c8e9e1f0b2170d635374693d0aa3d60",
+      "archive_bytes": 144250302,
+      "summary_sha256": "98c2f46503d5ddef9263e5bd21272ff06ca0a92ea11eef8151e3af80850024ee",
+      "executions": 54
+    }
+  ]
+}

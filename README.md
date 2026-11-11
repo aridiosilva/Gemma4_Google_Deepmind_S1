@@ -1,10 +1,16 @@
-# Frozen paper evidence: supplemental edition
+# Frozen evidence for the Gemma 4 Paper Track
 
 Aridio Silva · Independent Researcher · ORCID 0009-0008-2411-6995
 
 © 2026 Aridio Silva · Apache-2.0
 
-Created / updated: November 7, 2026, America/Sao_Paulo.
+Created: November 7, 2026 · Last updated: November 11, 2026 · America/Sao_Paulo (UTC−03:00).
+
+## Kaggle execution evidence through November 11
+
+The November 11 supplement contains an inventory of 87 tasks and 109 execution records across rounds R1–R6 and S54M. The [supplement and verification instructions](evidence/kaggle-bugs-2026-11-11/README.md) document 37 resolutions among the selected tasks, of which 86 were executed. The supplement preserves source archive and member fingerprints and includes a script to recompute the reported counts.
+
+## November 7 evidence
 
 This edition adds publication extracts and selected processing receipts supporting paper references 8–12. These documents are the publicly inspectable cited sources; they are not claims that the full private reports or processing archives are public. The repository is archived read-only after publication.
 
