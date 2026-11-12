@@ -6,6 +6,12 @@ Aridio Silva · Independent Researcher, Brazil · [ORCID 0009-0008-2411-6995](ht
 
 Created November 7, 2026 · Updated November 11, 2026 · America/Sao_Paulo (UTC−03:00)
 
+## Risk catalog snapshot v1.2.1
+
+The [R01–R72 risk catalog](evidence/r01-r72-risk-catalog-pt.md) is the author's Portuguese report on platform, dependency, evaluation, and project risks. It includes the 72 catalog entries and distinguishes documented occurrences from proposed classifications. It consolidates earlier sources. The linked receipts for the [parser](evidence/parser-forum-receipt.json), [test identities](evidence/w18-synthetic-receipt.json), and [public task profile](evidence/ref-09.md) document the specific cases discussed in the paper.
+
+The source report SHA-256 is `1d2122616a3562e6b1eb29b97e0a5aa141b0d770b19f19445c6004df38fe4e77`. The public copy updates the distribution notice and omits the workstation path. `MANIFEST.sha256` records the public copy's digest.
+
 ## Cite and verify v1.2.0
 
 Use [`paper-evidence-v1.2.0`](https://github.com/aridiosilva/Gemma4_Google_Deepmind_S1/tree/paper-evidence-v1.2.0), commit [`433e7508f713d947b417d8522bc84b96eae1da45`](https://github.com/aridiosilva/Gemma4_Google_Deepmind_S1/commit/433e7508f713d947b417d8522bc84b96eae1da45), for reference [10] in *Budget-Bounded Software Repair with AI Agents*. The [permanent supplement](https://github.com/aridiosilva/Gemma4_Google_Deepmind_S1/blob/433e7508f713d947b417d8522bc84b96eae1da45/evidence/kaggle-bugs-2026-11-11/README.md) covers seven rounds on the public development profile.
@@ -34,4 +40,4 @@ The original Submission One snapshot is available at [`paper-evidence-v1.0.0`](h
 
 ## License
 
-The original supporting text, evidence extracts, and verification code in this repository are covered by [Apache License 2.0](LICENSE). See [NOTICE](NOTICE). The historical CC BY 4.0 notice refers to the separate November 7, 2026 manuscript edition, *Budgeted software repair with AI agents*. Licensing of the November 11 REV1 manuscript is a separate decision for the author.
+The original supporting text, evidence extracts, and verification code in this repository are covered by [Apache License 2.0](LICENSE). The R01–R72 report carries its own copyright notice and has no public license assigned. See [NOTICE](NOTICE). The historical CC BY 4.0 notice refers to the separate November 7, 2026 manuscript edition, *Budgeted software repair with AI agents*. Licensing of the November 11 REV1 manuscript is a separate decision for the author.
