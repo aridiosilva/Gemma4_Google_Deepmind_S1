@@ -6,6 +6,10 @@ Aridio Silva · Independent Researcher, Brazil · [ORCID 0009-0008-2411-6995](ht
 
 Created November 7, 2026 · Updated November 11, 2026 · America/Sao_Paulo (UTC−03:00)
 
+## English risk catalog v1.2.2
+
+The [English edition of R01–R72](evidence/r01-r72-risk-catalog-en.md) retains all 72 risks and all 25 W occurrences, with public receipts for selected findings. It documents the two later Kaggle resolutions linked to R69 and distinguishes them from the earlier network-access rehearsals. The [Portuguese edition](evidence/r01-r72-risk-catalog-pt.md) provides the original publication for comparison.
+
 ## Risk catalog snapshot v1.2.1
 
 The [R01–R72 risk catalog](evidence/r01-r72-risk-catalog-pt.md) is the author's Portuguese report on platform, dependency, evaluation, and project risks. It includes the 72 catalog entries and distinguishes documented occurrences from proposed classifications. It consolidates earlier sources. The linked receipts for the [parser](evidence/parser-forum-receipt.json), [test identities](evidence/w18-synthetic-receipt.json), and [public task profile](evidence/ref-09.md) document the specific cases discussed in the paper.
